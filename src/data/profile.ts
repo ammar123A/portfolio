@@ -3,22 +3,23 @@ export const profile = {
   name: 'Ammar Rosli',
   role: 'Full-stack Developer',
   location: 'Malaysia',
+  headline: 'Stop running your business on spreadsheets and WhatsApp threads.',
   pitch:
-    'I build web and mobile systems that replace spreadsheets, WhatsApp threads and manual work: booking and payments, dashboards, AI support and automation.',
-  bio: 'Full-stack developer working across Vue, React, Laravel, Node.js, Spring Boot and Flutter. Currently leading development of BUK at AGAATT, and taking freelance projects for businesses that need a working system, not just a website.',
-  whatsapp: 'https://wa.me/601111474745?text=' + encodeURIComponent('Hi Ammar, I saw your portfolio and would like to discuss a project.'),
+    'I build the web and mobile systems that replace them: online booking with payments, stock and staff management, AI customer support, and apps your customers can download.',
+  bio: "I'm Ammar, a full-stack developer in Malaysia. At AGAATT I lead development of BUK, a booking app for rides, barbers, cleaners and car wash. I also take freelance projects for businesses. You deal with me directly, from the first chat to launch day.",
+  whatsapp: 'https://wa.me/601111474745?text=' + encodeURIComponent("Hi Ammar, I saw your portfolio. I'd like to talk about a project for my business."),
   whatsappDisplay: '011-1147 4745',
   email: 'pizsammar@gmail.com',
   github: 'https://github.com/ammar123A',
 }
 
 export const services = [
-  { title: 'Business systems & dashboards', text: 'CRM, inventory, HR and admin panels that replace Excel and manual work.' },
-  { title: 'Booking & payment systems', text: 'Online booking with staff assignment, Stripe payments and no double bookings.' },
-  { title: 'Mobile apps', text: 'Android and iOS apps from one Flutter codebase, with the backend to run them.' },
-  { title: 'AI customer support', text: 'Chatbots that answer from your own FAQ, with a human checking replies.' },
-  { title: 'WhatsApp automation', text: 'Bots that turn group chats into tracked records and daily reports.' },
-  { title: 'Company & event websites', text: 'Fast, mobile-first sites that are easy to update.' },
+  { title: 'Replace your Excel sheets', text: 'Customers, stock, orders, staff and payroll in one system your whole team can use.' },
+  { title: 'Take bookings and payments online', text: 'Customers book and pay by card, staff are assigned automatically, and no slot is ever booked twice.' },
+  { title: 'Get your own mobile app', text: 'An Android and iOS app from one codebase, plus the admin panel and backend behind it.' },
+  { title: 'Answer customers faster with AI', text: 'A chatbot that answers from your own FAQ, with your team approving replies before they go out.' },
+  { title: 'Automate your WhatsApp groups', text: 'A bot that turns group messages into tracked records, stock counts and daily reports.' },
+  { title: 'A website that wins trust', text: 'Fast company and event sites that look right on a phone and are easy to update.' },
 ]
 
 export const stack = [
@@ -30,8 +31,8 @@ export const stack = [
 ]
 
 export const steps = [
-  { title: 'Discuss', text: 'We talk through your problem and what a good result looks like.' },
-  { title: 'Plan & quote', text: 'A written scope, timeline and fixed quote before any work starts.' },
-  { title: 'Build', text: 'Weekly demos so you see progress and can steer early.' },
-  { title: 'Launch & support', text: 'Deployment, handover and support after go-live.' },
+  { title: 'Tell me the problem', text: "A WhatsApp chat or call about what's slowing you down. No tech knowledge needed." },
+  { title: 'Get a clear quote', text: 'A written scope, timeline and price before any work starts.' },
+  { title: 'See progress as it happens', text: 'Regular demos, so you can steer early instead of at the end.' },
+  { title: 'Launch and support', text: 'I deploy it, show your team how to use it, and stay on for fixes after launch.' },
 ]

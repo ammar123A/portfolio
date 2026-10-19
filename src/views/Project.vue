@@ -47,8 +47,8 @@ const project = computed(() => projects.find((p) => p.slug === route.params.slug
     </div>
 
     <div class="mt-12 rounded-2xl bg-teal-600 p-8 text-center text-white">
-      <p class="text-xl font-bold">Need something like this?</p>
-      <a :href="profile.whatsapp" target="_blank" rel="noopener" class="mt-4 inline-block rounded-full bg-white px-6 py-3 font-semibold text-teal-700 hover:bg-teal-50">WhatsApp me</a>
+      <p class="text-xl font-bold">Want something like this for your business?</p>
+      <a :href="profile.whatsapp" target="_blank" rel="noopener" class="mt-4 inline-block rounded-full bg-white px-6 py-3 font-semibold text-teal-700 hover:bg-teal-50">Chat with me on WhatsApp</a>
     </div>
   </article>
 
